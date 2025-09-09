@@ -101,7 +101,20 @@ const downloads = [
         name: '3hs',
         url: 'https://download2.erista.me/3hs/3hs.cia'
     },
+    {
+        name: 'NetPass',
+        url: 'https://netpass.cafe/netpass.cia'
+    },
+    {
+        name: 'Nimbus',
+        repo: 'PretendoNetwork/nimbus',
+        assets: [
+            { filename: /^cia\.[\d.]+\.zip$/, saveFilename: 'Nimbus.zip' }
+        ]
+    },
 ];
+
+fs.rmSync(rootDir, { recursive: true, force: true });
 
 (async () => {
     for (const download of downloads) {

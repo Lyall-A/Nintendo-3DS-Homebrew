@@ -29,7 +29,13 @@ copy('ftpd.cia', 'cias/ftpd.cia');
 copy('Universal-Updater.cia', 'cias/Universal-Updater.cia');
 copy('Anemone3DS.cia', 'cias/Anemone3DS.cia');
 copy('Checkpoint.cia', 'cias/Checkpoint.cia');
+
+// Extras
 copy('3hs.cia', 'cias/3hs.cia');
+copy('netpass.cia', 'cias/netpass.cia');
+copy('Nimbus/3ds', '3ds');
+copy('Nimbus/cias', 'cias');
+copy('Nimbus/luma', 'luma');
 
 console.log(`Created SD at "${sdDir}"`);
 

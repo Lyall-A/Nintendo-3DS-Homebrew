@@ -11,6 +11,7 @@ This is everything required for Homebrew
 * [Homebrew Launcher](https://github.com/devkitPro/3ds-hbmenu): Custom menu for running .3dsx homebrew applications, packaged with Luma3DS
 
 ## Applications installed
+This is all the useful applications you should have
 * [GodMode9](https://github.com/d0k3/GodMode9): File browser, useful for creating NAND backups
 * [Homebrew Launcher Wrapper](https://github.com/PabloMK7/homebrew_launcher_dummy): Wrapper to launch Homebrew Launcher from the HOME
 * [FBI](https://github.com/nh-server/FBI-NH): Title manager, useful for installing .cia applications
@@ -18,19 +19,24 @@ This is everything required for Homebrew
 * [Universal-Updater](https://github.com/Universal-Team/Universal-Updater): Downloader
 * [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS): Theme and splashscreen manager
 * [Checkpoint](https://github.com/bernardogiordano/checkpoint): Save manager
+
+## Extra applications installed
+These are some applications you might want
 * [3hs](https://hshop.erista.me/3hs): hShop downloader
+* [NetPass](https://gitlab.com/3ds-netpass/netpass): StreetPass for virutal locations
+* [Nimbus](https://github.com/PretendoNetwork/nimbus): Pretendo account manager, recreation of the Nintendo Network
 
 ## Installing Homebrew
-todo
-
-## Changing region
 todo
 
 ## Creating NAND backup
 todo
 
+## Changing region
+todo
+
 ## How it works (I think?)
-When running the super-skaterhax exploit, the Homebrew Launcher should be launched, from there you run nimdsphax which elevates privileges from userland using an exploit to be able to run SafeB9SInstaller, from there boot9strap will be installed and then Luma3DS will now boot
+When running the super-skaterhax exploit, the Homebrew Launcher should be launched, from there you run nimdsphax which elevates privileges from userland using an exploit to be able to run SafeB9SInstaller, from there boot9strap can be installed and then Luma3DS will now boot
 
 ## Stuff
 * .cia are applications that show on the HOME menu

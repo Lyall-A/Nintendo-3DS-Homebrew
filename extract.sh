@@ -7,3 +7,4 @@ cd Downloads
 7z x Luma3DS.zip -y -oLuma3DS
 7z x nimdsphax.zip -y -onimdsphax
 7z x GodMode9.zip -y -oGodMode9
+7z x Nimbus.zip -y -oNimbus
