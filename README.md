@@ -3,8 +3,8 @@ This script assumes you are on latest firmware (and have a Japanese model, but t
 
 fuck ebay speedpak for losing my new 3ds ll
 
-## Homebrew files
-This is everything required for Homebrew
+## What's installed
+### Homebrew
 * [super-skaterhax](https://github.com/zoogie/super-skaterhax): Userland exploit for the new 3DS browser, known as Skater
 * [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller): User-friendly boot9strap installer
 * [boot9strap](https://github.com/SciresM/boot9strap): Firmware loader
@@ -12,8 +12,7 @@ This is everything required for Homebrew
 * [nimdspax](https://github.com/luigoalma/nimdsphax): Userland exploit to gain the necessary privileges needed to run SafeB9SInstaller
 * [Homebrew Launcher](https://github.com/devkitPro/3ds-hbmenu): Custom menu for running .3dsx homebrew applications, packaged with Luma3DS
 
-## Applications installed
-This is all the useful applications you should have
+### Useful Applications
 * [GodMode9](https://github.com/d0k3/GodMode9): File browser, useful for creating NAND backups
 * [Homebrew Launcher Wrapper](https://github.com/PabloMK7/homebrew_launcher_dummy): Wrapper to launch Homebrew Launcher from the HOME
 * [FBI](https://github.com/nh-server/FBI-NH): Title manager, useful for installing .cia applications
@@ -22,12 +21,11 @@ This is all the useful applications you should have
 * [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS): Theme and splashscreen manager
 * [Checkpoint](https://github.com/bernardogiordano/checkpoint): Save manager
 
-## Extra applications installed
-These are some applications you might want
+### Extras
 * [3hs](https://hshop.erista.me/3hs): hShop downloader
 * [NetPass](https://gitlab.com/3ds-netpass/netpass): StreetPass for virtual locations
 * [Nimbus](https://github.com/PretendoNetwork/nimbus): Pretendo account manager, recreation of the Nintendo Network
-* TODO: NTR thing
+* [BootNTR Selector](https://github.com/xzn/ntr-hr): Allows game patching, debugging and wireless streaming
 
 ## Installing Homebrew
 todo

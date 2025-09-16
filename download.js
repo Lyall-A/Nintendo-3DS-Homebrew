@@ -112,6 +112,13 @@ const downloads = [
             { filename: /^cia\.[\d.]+\.zip$/, saveFilename: 'Nimbus.zip' }
         ]
     },
+    {
+        name: 'BootNTR Selector',
+        repo: 'xzn/ntr-hr',
+        assets: [
+            { filename: 'BootNTRSelector-PabloMK7-Banner.cia', saveFilename: 'BootNTRSelector.cia' }
+        ]
+    }
 ];
 
 fs.rmSync(rootDir, { recursive: true, force: true });
