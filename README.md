@@ -28,13 +28,13 @@ fuck ebay speedpak for losing my new 3ds ll
 * [BootNTR Selector](https://github.com/xzn/ntr-hr): Allows game patching, debugging and wireless streaming
 
 ## Installing Homebrew
-todo
+TODO
 
 ## Creating NAND backup
-todo
+TODO: https://3ds.hacks.guide/godmode9-usage.html#creating-a-nand-backup
 
 ## Changing region
-todo
+TODO: https://3ds.hacks.guide/region-changing.html
 
 ## How it works (I think?)
 When running the super-skaterhax exploit, the Homebrew Launcher should be launched, from there you run nimdsphax which elevates privileges from userland using an exploit to be able to run SafeB9SInstaller, from there boot9strap can be installed and then Luma3DS will now boot
