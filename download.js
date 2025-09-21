@@ -118,6 +118,42 @@ const downloads = [
         assets: [
             { filename: 'BootNTRSelector-PabloMK7-Banner.cia', saveFilename: 'BootNTRSelector.cia' }
         ]
+    },
+    {
+        name: 'TWiLight Menu++',
+        repo: 'DS-Homebrew/TwilightMenu',
+        assets: [
+            { filename: 'TWiLightMenu-3DS.7z', saveFilename: 'TWiLightMenu.7z' },
+            { filename: 'AddOn-BetterDSiMenuMusic.7z', saveFilename: 'TWiLightMenu-BetterDSiMenuMusic-AddOn.7z' },
+            { filename: 'AddOn-ExtraUIMusic.7z', saveFilename: 'TWiLightMenu-ExtraUIMusic-AddOn.7z' },
+            { filename: 'AddOn-Multimedia.7z', saveFilename: 'TWiLightMenu-Multimedia-AddOn.7z' },
+            { filename: 'AddOn-VirtualConsole.7z', saveFilename: 'TWiLightMenu-VirtualConsole-AddOn.7z' },
+        ]
+    },
+    {
+        name: 'Azahar Artic Setup Tool',
+        repo: 'azahar-emu/ArticSetupTool',
+        assets: [
+            { filename: 'AzaharArticSetup.cia' }
+        ]
+    },
+    // {
+    //     name: 'CTGP-7 Downloader',
+    //     repo: 'PabloMK7/CTGP-7_Launcher',
+    //     assets: [
+    //         { filename: 'CTGP-7_Downloader.cia' }
+    //     ]
+    // },
+    {
+        name: 'faketik',
+        repo: 'ihaveamac/faketik',
+        assets: [
+            { filename: 'faketik.3dsx' }
+        ]
+    },
+    {
+        name: 'ctrtransfer.gm9',
+        url: 'https://raw.githubusercontent.com/nh-server/scripts/refs/heads/main/3DS/ctrtransfer.gm9'
     }
 ];
 

@@ -8,3 +8,8 @@ cd Downloads
 7z x nimdsphax.zip -y -onimdsphax
 7z x GodMode9.zip -y -oGodMode9
 7z x Nimbus.zip -y -oNimbus
+7z x TWiLightMenu.7z -y -oTWiLightMenu
+7z x TWiLightMenu-BetterDSiMenuMusic-AddOn.7z -y -oTWiLightMenu-BetterDSiMenuMusic-AddOn
+7z x TWiLightMenu-ExtraUIMusic-AddOn.7z -y -oTWiLightMenu-ExtraUIMusic-AddOn
+7z x TWiLightMenu-Multimedia-AddOn.7z -y -oTWiLightMenu-Multimedia-AddOn
+7z x TWiLightMenu-VirtualConsole-AddOn.7z -y -oTWiLightMenu-VirtualConsole-AddOn
