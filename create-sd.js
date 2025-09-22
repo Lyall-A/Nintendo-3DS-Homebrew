@@ -11,7 +11,6 @@ fs.mkdirSync(sdDir);
 // Required for homebrew
 copy('boot9strap', 'boot9strap');
 copy('Luma3DS', '.');
-copy('nimdsphax', '3ds/nimdsphax');
 // copy('super-skaterhax/JAPAN (11.17.0-50J, 11.16.0-49J, 11.15.0-47J)', '.'); // Change this to match yours
 // copy('SafeB9SInstaller/SafeB9SInstaller.bin', 'SafeB9SInstaller.bin');
 // copy('nimdsphax/nimdsphax', '3ds/nimdsphax');
