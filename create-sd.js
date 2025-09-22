@@ -44,6 +44,7 @@ copy('netpass.cia', 'cias/netpass.cia');
 copy('Nimbus/3ds', '3ds');
 copy('Nimbus/cias', 'cias');
 copy('Nimbus/luma', 'luma');
+copy('3DSident.cia', 'cias/3DSident.cia');
 copy('BootNTRSelector.cia', 'cias/BootNTRSelector.cia');
 copy('TWiLightMenu/roms', 'roms');
 copy('TWiLightMenu/_nds', '_nds');

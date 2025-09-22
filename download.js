@@ -113,6 +113,13 @@ const downloads = [
         ]
     },
     {
+        name: '3DSident',
+        repo: 'joel16/3DSident',
+        assets: [
+            { filename: '3DSident.cia' }
+        ]
+    },
+    {
         name: 'BootNTR Selector',
         repo: 'xzn/ntr-hr',
         assets: [

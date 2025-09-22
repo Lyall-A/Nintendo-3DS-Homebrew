@@ -25,6 +25,7 @@ fuck ebay speedpak for losing my new 3ds ll
 * [3hs](https://hshop.erista.me/3hs): hShop downloader
 * [NetPass](https://gitlab.com/3ds-netpass/netpass): StreetPass for virtual locations
 * [Nimbus](https://github.com/PretendoNetwork/nimbus): Pretendo account manager, recreation of the Nintendo Network
+* [3DSident](https://github.com/joel16/3DSident): Shows a bunch of device info
 * [BootNTR Selector](https://github.com/xzn/ntr-hr): Allows game patching, debugging and wireless streaming
 * [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu): DSi Menu for running DS, DSi and GBA titles
 * [Azahar Artic Setup Tool](https://github.com/azahar-emu/ArticSetupTool): Allows you to copy certain data from your 3DS for use in Azahar emulator
