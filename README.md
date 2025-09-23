@@ -1,8 +1,6 @@
 # Nintendo 3DS Homebrew
 <!-- This script assumes you are on latest firmware (and have a Japanese model, but the script can be easily changed for other models) -->
 
-fuck ebay speedpak for losing my new 3ds ll
-
 ## What's installed
 ### Homebrew
 * [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller): User-friendly boot9strap installer
@@ -30,8 +28,14 @@ fuck ebay speedpak for losing my new 3ds ll
 * [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu): DSi Menu for running DS, DSi and GBA titles
 * [Azahar Artic Setup Tool](https://github.com/azahar-emu/ArticSetupTool): Allows you to copy certain data from your 3DS for use in Azahar emulator
 
-<!-- ## Installing Homebrew (MSET9) -->
-<!-- TODO fuck i ended up using MSET9 instead of super skaterhax -->
+## Installing Homebrew (super-skaterhax)
+didnt fucking work for me, see https://3ds.hacks.guide/installing-boot9strap-(super-skaterhax).html
+
+### How it works
+When pressing the `GO GO!` button, the Homebrew Launcher should be launched. From there you run nimdsphax which elevates privileges from userland using an exploit to be able to run [SafeB9SInstaller](#safeb9sinstaller)
+
+## Installing Homebrew (MSET9)
+TODO: https://3ds.hacks.guide/installing-boot9strap-(mset9).html
 
 ## Creating NAND backup
 TODO: https://3ds.hacks.guide/godmode9-usage.html#creating-a-nand-backup
@@ -39,10 +43,17 @@ TODO: https://3ds.hacks.guide/godmode9-usage.html#creating-a-nand-backup
 ## Changing region
 TODO: https://3ds.hacks.guide/region-changing.html
 
-<!-- ## How it works (I think?) -->
-<!-- TODO -->
-<!-- When running the super-skaterhax exploit, the Homebrew Launcher should be launched, from there you run nimdsphax which elevates privileges from userland using an exploit to be able to run SafeB9SInstaller, from there boot9strap can be installed and then Luma3DS will now boot -->
+## SafeB9SInstaller
+Once in SafeB9SInstaller, it will show a sequence for you to enter. After doing the sequence a FIRM backup will be created and [boot9strap](#boot9strap) will be installed
+
+## boot9strap
+Boot9strap runs during boot and will attempt to boot `boot.firm` located on the SD card or NAND (in order)
+
+## Luma3DS
+Luma3DS is the CFW, it is the `boot.firm` file that [boot9strap](#boot9strap) boots with
 
 ## Useful info
 * .cia are installation files that FBI will install to the `Nintendo 3DS` directory, to show on the HOME Menu
 * .3dsx are applications that show on the Homebrew Launcher
+
+fuck ebay speedpak for losing my new 3ds ll

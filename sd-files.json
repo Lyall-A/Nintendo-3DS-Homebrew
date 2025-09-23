@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Homebrew",
+        "id": "homebrew",
+        "required": true,
+        "files": [
+            ["boot9strap", "boot9strap"],
+            ["Luma3DS", "."]
+        ]
+    },
+    {
+        "name": "super-skaterax (Japan)",
+        "id": "skaterhax-jp",
+        "files": [
+            ["boot9strap", "boot9strap"],
+            ["Luma3DS", "."],
+            ["super-skaterhax/JAPAN (11.17.0-50J, 11.16.0-49J, 11.15.0-47J)", "."],
+            ["SafeB9SInstaller/SafeB9SInstaller.bin", "SafeB9SInstaller.bin"],
+            ["nimdsphax", "3ds/nimdsphax"]
+        ]
+    },
+    {
+        "name": "Applications",
+        "id": "applications",
+        "files": [
+            ["Homebrew_Launcher.cia", "cias/Homebrew_Launcher.cia"],
+            ["FBI.3dsx", "3ds/FBI/FBI.3dsx"],
+            ["FBI.cia", "cias/FBI.cia"],
+            ["faketik.3dsx", "3ds/faketik/faketik.3dsx"],
+            ["ftpd.cia", "cias/ftpd.cia"],
+            ["Universal-Updater.cia", "cias/Universal-Updater.cia"],
+            ["Anemone3DS.cia", "cias/Anemone3DS.cia"],
+            ["Checkpoint.cia", "cias/Checkpoint.cia"]
+        ]
+    },
+    {
+        "name": "Luma Payloads",
+        "id": "payloads",
+        "files": [
+            ["GodMode9/gm9", "gm9"],
+            ["GodMode9/GodMode9.firm", "luma/payloads/GodMode9.firm"],
+            ["SafeB9SInstaller/SafeB9SInstaller.firm", "luma/payloads/SafeB9SInstaller.firm"]
+        ]
+    },
+    {
+        "name": "GodMode9 Scripts",
+        "id": "scripts",
+        "files": [
+            ["ctrtransfer.gm9", "gm9/scripts/ctrtransfer.gm9"]
+        ]
+    },
+    {
+        "name": "Extras",
+        "id": "extras",
+        "files": [
+            ["3hs.cia', 'cias/3hs.cia"],
+            ["netpass.cia', 'cias/netpass.cia"],
+            ["Nimbus/3ds', '3ds"],
+            ["Nimbus/cias', 'cias"],
+            ["Nimbus/luma', 'luma"],
+            ["3DSident.cia', 'cias/3DSident.cia"],
+            ["BootNTRSelector.cia', 'cias/BootNTRSelector.cia"],
+            ["TWiLightMenu/roms', 'roms"],
+            ["TWiLightMenu/_nds', '_nds"],
+            ["TWiLightMenu/BOOT.NDS', 'BOOT.NDS"],
+            ["TWiLightMenu/TWiLight Menu.cia', 'cias/TWiLight Menu.cia"],
+            ["TWiLightMenu-BetterDSiMenuMusic-AddOn', '."],
+            ["TWiLightMenu-ExtraUIMusic-AddOn', '."],
+            ["TWiLightMenu-Multimedia-AddOn', '."],
+            ["TWiLightMenu-VirtualConsole-AddOn', '."],
+            ["AzaharArticSetup.cia', 'cias/AzaharArticSetup.cia"]
+        ]
+    }
+]
