@@ -1,5 +1,5 @@
 # Nintendo 3DS Homebrew
-just some useful information idk
+don't use this
 <!-- This script assumes you are on latest firmware (and have a Japanese model, but the script can be easily changed for other models) -->
 
 ## What's installed
@@ -29,41 +29,15 @@ just some useful information idk
 * [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu): DSi Menu for running DS, DSi and GBA titles
 * [Azahar Artic Setup Tool](https://github.com/azahar-emu/ArticSetupTool): Allows you to copy certain data from your 3DS for use in Azahar emulator
 
-## Installing Homebrew (super-skaterhax)
-didnt fucking work for me, see https://3ds.hacks.guide/installing-boot9strap-(super-skaterhax).html
-
-### How it works
-When pressing the `GO GO!` button, the Homebrew Launcher should be launched. From there you run nimdsphax which elevates privileges from userland using an exploit to be able to run [SafeB9SInstaller](#safeb9sinstaller)
-
-## Installing Homebrew (MSET9)
-TODO: https://3ds.hacks.guide/installing-boot9strap-(mset9).html
+## Installing Homebrew
+### Methods
+* [MSET9](/MSET9.md)
+* [super-skaterhax](/super-skaterhax.md)
 
 ## Creating NAND backup
 TODO: https://3ds.hacks.guide/godmode9-usage.html#creating-a-nand-backup
 
 ## Changing region
 TODO: https://3ds.hacks.guide/region-changing.html
-
-## SafeB9SInstaller
-Once in SafeB9SInstaller, it will show a sequence for you to enter. After doing the sequence a FIRM backup will be created and [boot9strap](#boot9strap) will be installed using the `.firm` file in `/boot9strap`
-
-## boot9strap
-Boot9strap runs during boot and will attempt to boot `boot.firm` located on the SD card or NAND (in order)
-
-## Luma3DS
-Luma3DS is the CFW (Custom Firmware), it is the `boot.firm` file that [boot9strap](#boot9strap) boots with
-
-## Cleaning SD Card after Homebrew
-Not all files are still needed after Homebrew
-* `/boot9strap` can be deleted, It's only used when installing (or updating) boot9strap
-* All CIA files can be deleted once installed, they are just installer packages
-* All Luma3DS files (`/boot.firm`, `/luma`) can be deleted if copied over to NAND
-* `/boot.3dsx` can be deleted if you don't need the Homebrew Launcher, make sure you atleast have FBI first however
-
-## Useful info maybe
-* `boot.3dsx` is the Homebrew Launcher, it cannot be moved to NAND
-* [boot9strap](#boot9strap) reads `boot.firm` from both SD and NAND
-* `.cia` are installation files that FBI will install to the `Nintendo 3DS` directory, to show on the HOME Menu
-* `.3dsx` are applications that show on the Homebrew Launcher
 
 fuck ebay speedpak for losing my new 3ds ll
