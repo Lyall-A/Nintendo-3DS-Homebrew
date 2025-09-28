@@ -159,6 +159,20 @@ const downloads = [
         ]
     },
     {
+        name: "NDSForwarder",
+        repo: 'MechanicalDragon0687/ndsForwarder',
+        assets: [
+            { filename: 'ndsForwarder.3dsx' }
+        ]
+    },
+    {
+        name: "NTR Forwarder",
+        repo: 'RocketRobz/NTR_Forwarder',
+        assets: [
+            { filename: 'DS.Game.Forwarder.pack.nds-bootstrap.7z', saveFilename: 'NTR-Forwarder.7z' }
+        ]
+    },
+    {
         name: 'ctrtransfer.gm9',
         url: 'https://raw.githubusercontent.com/nh-server/scripts/refs/heads/main/3DS/ctrtransfer.gm9'
     }

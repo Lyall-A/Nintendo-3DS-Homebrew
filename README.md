@@ -1,5 +1,9 @@
 # Nintendo 3DS Homebrew
 don't use this
+
+this repo is a mess holy fuck
+
+it just has some scripts to download a bunch of shit
 <!-- This script assumes you are on latest firmware (and have a Japanese model, but the script can be easily changed for other models) -->
 
 ## What's installed
@@ -39,5 +43,8 @@ TODO: https://3ds.hacks.guide/godmode9-usage.html#creating-a-nand-backup
 
 ## Changing region
 TODO: https://3ds.hacks.guide/region-changing.html
+
+## TODO
+* ~~Do I need `apfix.pck` and `widescreen.pck` in `/_nds/ntr-forwarder`??~~ integrated into nds-bootstrap apparently
 
 fuck ebay speedpak for losing my new 3ds ll
