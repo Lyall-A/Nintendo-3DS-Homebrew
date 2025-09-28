@@ -2,10 +2,19 @@
     {
         "name": "Homebrew",
         "id": "homebrew",
-        "required": true,
+        "required": false,
         "files": [
             ["boot9strap", "boot9strap"],
             ["Luma3DS", "."]
+        ]
+    },
+    {
+        "name": "Post-Homebrew",
+        "id": "post-homebrew",
+        "required": true,
+        "files": [
+            ["Luma3DS/config", "config"],
+            ["Luma3DS/boot.firm", "boot.firm"]
         ]
     },
     {
@@ -21,14 +30,14 @@
     },
     {
         "name": "Applications",
-        "id": "applications",
+        "id": "apps",
         "files": [
-            ["Homebrew_Launcher.cia", "cias/Homebrew_Launcher.cia"],
+            ["Homebrew_Launcher.cia", "cias/Homebrew Launcher.cia"],
             ["FBI.3dsx", "3ds/FBI/FBI.3dsx"],
             ["FBI.cia", "cias/FBI.cia"],
             ["faketik.3dsx", "3ds/faketik/faketik.3dsx"],
             ["ftpd.cia", "cias/ftpd.cia"],
-            ["Universal-Updater.cia", "cias/Universal-Updater.cia"],
+            ["Universal-Updater.cia", "cias/Universal Updater.cia"],
             ["Anemone3DS.cia", "cias/Anemone3DS.cia"],
             ["Checkpoint.cia", "cias/Checkpoint.cia"]
         ]
@@ -54,24 +63,34 @@
         "id": "extras",
         "files": [
             ["3hs.cia", "cias/3hs.cia"],
-            ["netpass.cia", "cias/netpass.cia"],
+            ["netpass.cia", "cias/NetPass.cia"],
             ["Nimbus/3ds", "3ds"],
-            ["Nimbus/cias", "cias"],
+            ["Nimbus/cias/nimbus.cia", "cias/Nimbus.cia"],
             ["Nimbus/luma", "luma"],
             ["3DSident.cia", "cias/3DSident.cia"],
-            ["BootNTRSelector.cia", "cias/BootNTRSelector.cia"],
+            ["BootNTRSelector.cia", "cias/NTR-HR.cia"]
+        ]
+    },
+    {
+        "name": "NDS",
+        "id": "nds",
+        "files": [
             ["TWiLightMenu/roms", "roms"],
             ["TWiLightMenu/_nds", "_nds"],
             ["TWiLightMenu/BOOT.NDS", "BOOT.NDS"],
-            ["TWiLightMenu/TWiLight Menu.cia", "cias/TWiLight Menu.cia"],
+            ["TWiLightMenu/TWiLight Menu.cia", "cias/TWiLight Menu++.cia"],
             ["TWiLightMenu-BetterDSiMenuMusic-AddOn", "."],
             ["TWiLightMenu-ExtraUIMusic-AddOn", "."],
-            ["TWiLightMenu-Multimedia-AddOn", "."],
-            ["TWiLightMenu-VirtualConsole-AddOn", "."],
-            ["ndsForwarder.3dsx", "3ds/ndsForwarder.3dsx"],
+            ["ndsForwarder.3dsx", "3ds/NDSForwarder/NDSForwarder.3dsx"],
             ["NTR-Forwarder/for SD Card root/_nds/ntr-forwarder", "_nds/ntr-forwarder"],
-            ["NTR-Forwarder/for SD Card root/_nds/ntr_forwarder.ini", "_nds/ntr_forwarder.ini"],
-            ["AzaharArticSetup.cia", "cias/AzaharArticSetup.cia"]
+            ["NTR-Forwarder/for SD Card root/_nds/ntr_forwarder.ini", "_nds/ntr-forwarder.ini"]
+        ]
+    },
+    {
+        "name": "Emulators",
+        "id": "emulators",
+        "files": [
+            ["AzaharArticSetup.cia", "cias/Azahar Artic Setup.cia"]
         ]
     }
 ]
